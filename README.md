@@ -3,7 +3,7 @@
 ## Installation:
 
 ```bash
-composer require Stowers-LIMS/zpl
+composer require stowers-lims/zpl
 ```
 
 ## How to use:
