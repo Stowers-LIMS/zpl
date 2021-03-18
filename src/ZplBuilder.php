@@ -103,6 +103,12 @@ class ZplBuilder extends AbstractBuilder
      * If true, the entire label content will be mirrored across a horizontal axis.
      * If this command is used multiple times, the last usage will take precedence.
      *
+     * If you send this command it will disregard all previous calls and use the last.
+     * Meaning, that only the last call will be honored.
+     *     - If you call twice with `true` it will be inverted.
+     *     - If you call with `false` and then `true` it will be inverted.
+     *     - If you call with `true` and then `false` it will be normal.
+     *
      * @param bool $isInvert
      */
     public function invertLabelOrientation(bool $isInvert = true) : void
