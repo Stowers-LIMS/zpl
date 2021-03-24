@@ -1,9 +1,11 @@
 ## This library is a php wrapper for the ZPL Programming Language.
+
 ---
+
 ## Installation:
 
 ```bash
-composer require Stowers-LIMS/zpl
+composer require stowers-lims/zpl
 ```
 
 ## How to use:
